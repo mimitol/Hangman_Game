@@ -1,0 +1,35 @@
+body{
+    background-image:url(../media/wallpeper.webp);
+    background-repeat: no-repeat;
+    background-color:rgb(149, 211, 250) ;
+    text-align: center;
+ }
+#buttons{
+   text-align: right;  
+    width: 500px;
+    margin: auto;
+    position: fixed;
+    right: 200px;
+    top: 150px;
+}
+
+
+img{
+   width: 200px;
+   height: 200px;
+   margin: 10px;
+}
+
+#hangmanpic{
+    border:7px solid deepskyblue;
+}
+#kubiapic{
+    border: 7px solid crimson;
+}
+#simonpic{
+    border: 7px solid yellow;
+}
+#snakespic{
+    border: 7px solid forestgreen;
+}
+

@@ -1,0 +1,49 @@
+header {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    color: #346C8C;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    margin: 10px;
+    background-color: white;
+}
+
+#showCheckbox {
+    width: 15px;
+}
+
+#show {
+    font-size: smaller;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    width: 160px;
+    height: 160px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: x-large;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border: 4px solid #346C8C;
+    border-radius: 3%;
+    background-color: white;
+}
+
+body {
+    font-size: x-large;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(149, 211, 250);
+}

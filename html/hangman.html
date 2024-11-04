@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/hangman.css">
+    <title>HANGMAN</title>
+    <link rel="icon" href="../media/10.png" />
+</head>
+
+<body>
+    <header>
+        <h1>Hangman</h1>
+        <h3>Choose category:</h3>
+    </header>
+ 
+    <article>
+        <div id="category">
+            <button id="inspiration" onclick="randAndPrint(0,9)">inspiration</button>
+            <button id="nature" onclick="randAndPrint(10,19)">nature</button>
+            <button id="music" onclick="randAndPrint(20,29)">music</button>
+            <button id="professionals" onclick="randAndPrint(30,39)">professionals</button>
+        </div>
+        <div id="game">
+            <div id="letters">
+                <div>
+                    <p id="time">Time</p>
+                    <p id="massages">mistakes</p>
+                </div>
+                <div>
+                    <button id="letterA" onclick="letters('a')">a</button>
+                    <button id="letterB" onclick="letters('b')">b</button>
+                    <button id="letterC" onclick="letters('c')">c</button>
+                    <button id="letterD" onclick="letters('d')">d</button>
+                    <button id="letterE" onclick="letters('e')">e</button>
+                    <button id="letterF" onclick="letters('f')">f</button>
+
+                </div>
+                <div>
+                    <button id="letterG" onclick="letters('g')">g</button>
+                    <button id="letterH" onclick="letters('h')">h</button>
+                    <button id="letterI" onclick="letters('i')">i</button>
+                    <button id="letterJ" onclick="letters('j')">j</button>
+                </div>
+                <div>
+                    <button id="letterK" onclick="letters('k')">k</button>
+                    <button id="letterL" onclick="letters('l')">l</button>
+                    <button id="letterM" onclick="letters('m')">m</button>
+                    <button id="letterN" onclick="letters('n')">n</button>
+                    <button id="letterO" onclick="letters('o')">o</button>
+                    <button id="letterP" onclick="letters('p')">p</button>
+
+                </div>
+                <div>
+                    <button id="letterQ" onclick="letters('q')">q</button>
+                    <button id="letterR" onclick="letters('r')">r</button>
+                    <button id="letterS" onclick="letters('s')">s</button>
+                    <button id="letterT" onclick="letters('t')">t</button>
+                </div>
+
+                <div>
+                    <button id="letterU" onclick="letters('u')">u</button>
+                    <button id="letterV" onclick="letters('v')">v</button>
+                    <button id="letterW" onclick="letters('w')">w</button>
+                    <button id="letterX" onclick="letters('x')">x</button>
+                    <button id="letterY" onclick="letters('y')">y</button>
+                    <button id="letterZ" onclick="letters('z')">z</button>
+                </div>
+
+
+            </div>
+            <div id="hangmanP">
+                <img src="../media/0.png" id="hangmanPicture">
+            </div>
+        </div>
+        <div id="gameOver">
+            <p id="winOrLose">you </p>
+            <p id="score">you got: </p>
+            <p id="totalScore">your total score: </p>
+            <p id="totalTime">your time:</p>
+            <p id="bounusTime"></p>
+            <a href="./hangman.html">new game</a>
+            <a href="./home.html">back to home page</a>
+        </div>
+            <p id="theWord"></p>
+    </article>
+    <footer>
+
+    </footer>
+    <script src="../js/hangman.js"></script>
+    <script src="../js/words.js"></script>
+</body>
+
+</html>

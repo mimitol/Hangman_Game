@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title><link rel="icon" href="../media/titlePicture.jpg" />
+    <link rel="stylesheet" href="../css/signAndLog.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="../media/logo.png" id="logo">
+        <h1>Log In</h1>
+    </header>
+    <article>
+        <form onsubmit="return login()" action="./home.html">
+               <label for="userName">Name:</label>
+                <input type="text" id="userName" placeholder="name" required>
+                <label for="password">Password:</label>
+                <input type="password" id="code" placeholder="Password" required>
+                <div id="show">
+                    <input type="checkbox" id="showCheckbox" >
+                    <p>show me the password</p>
+                </div>
+                <input type="submit" value="Log In">
+                <a href="./signUp.html">new user? signUp here</a>
+        </form>
+    </article>
+
+</body>
+<script src="../js/login.js"></script>
+</html>

@@ -1,0 +1,13 @@
+body{
+    background-image:url(../media/הורדה.png);
+    text-align: center;
+    width: 100%;
+}
+#message{
+   background-color: white;  
+ position: fixed;
+    top: 200px;
+    width: 100%;
+    border: black solid 4px;
+    border-left: none;
+}

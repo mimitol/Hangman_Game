@@ -1,0 +1,25 @@
+banana
+continue
+happiness
+dream
+opportunity
+unexpected
+remember
+impossible
+believe
+confidence 
+When you have a dream, you’ve got to grab it and never let go
+There is nothing impossible to they who will try
+The bad news is time flies. The good news is you’re the pilot
+Success is not final; failure is not fatal: it is the courage to continue that counts
+You are never too old to set another goal or to dream a new dream
+"Stop saying "I wish" start saying "I will
+.It does not matter how slowly you keep going as long as you dont stop
+Too many of us are not living our dreams because we are living our fears
+Without fear courage cannot exist
+Life is like riding a bicycle. To keep your balance, you must keep moving
+ <div id="chooseLevel">
+            <p>Choose level:</p>
+            <button id="wordLevel">words</button>
+            <button id="sentenceLevel">sentences</button>
+        </div>
